@@ -1,0 +1,23 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 5433,
+    "user": "postgres",
+    "password": "password",
+    "dbname": "test",
+    // удалять БД при запуске!
+    "drop_data_base":false,
+    // создать БД, если уже существует проигнорирует
+    "create_data_base": false,
+    // обновлять структуру БД
+    "update_data_base": true
+  },
+  "api": {
+    "listen": ":8081"
+  },
+  "log": {
+    "to_file": true,
+    "debug": true,
+    "log": true
+  }
+}

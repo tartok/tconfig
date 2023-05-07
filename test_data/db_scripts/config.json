@@ -1,0 +1,11 @@
+{
+  "configTable": "config",
+  "files": [
+    "groups.sql",
+    "schemes.sql",
+    "tables.sql",
+    "data.sql",
+    "constraints.sql",
+    "procedures.sql"
+  ]
+}
